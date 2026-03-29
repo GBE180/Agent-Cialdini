@@ -1,0 +1,34 @@
+name: Concept du jour
+
+on:
+  schedule:
+    - cron: '0 7 * * *'
+  workflow_dispatch:
+
+jobs:
+  send-concept:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Installer les dépendances
+        run: pip install anthropic requests
+
+      - name: Envoyer le concept du jour
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/send_notification.py
+
+      - name: Sauvegarder concepts.json
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add data/concepts.json
+          git diff --staged --quiet || git commit -m "concept du jour envoyé"
+          git push
