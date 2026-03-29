@@ -1,0 +1,496 @@
+[
+  {
+    "id": "c1a2b3c4-d5e6-4f7g-8h9i-j0k1l2m3n4o5",
+    "titre": "Automatismes comportementaux",
+    "definition": "Les comportements humains fonctionnent souvent de maniere automatique, comme des cassettes pre-enregistrees qui se declenchent en presence de certains stimuli. Ces raccourcis mentaux nous permettent de naviguer efficacement dans un monde complexe, mais nous rendent vulnerables a la manipulation.",
+    "exemple": "Le mot 'parce que' declenche automatiquement l'acceptation d'une requete, meme sans raison valable (experience de Langer avec la photocopieuse).",
+    "categorie": "principe",
+    "tags": [
+      "automatisme",
+      "comportement",
+      "raccourci-mental",
+      "stimulus"
+    ],
+    "source_chapitre": "Chapitre 1 - Les armes de l'influence",
+    "envoye": false
+  },
+  {
+    "id": "d2e3f4g5-h6i7-5j8k-9l0m-n1o2p3q4r5s6",
+    "titre": "Declencheurs de comportement",
+    "definition": "Certaines caracteristiques specifiques (couleur, son, mot-cle) servent de declencheurs qui activent des sequences comportementales automatiques. Ces declencheurs permettent des reactions rapides mais peuvent etre exploites frauduleusement.",
+    "exemple": "Le 'tchip-tchip' du dindonneau declenche le comportement maternel de la dinde, meme s'il provient d'un putois empaill.",
+    "categorie": "principe",
+    "tags": [
+      "declencheur",
+      "stimulus",
+      "reaction-automatique"
+    ],
+    "source_chapitre": "Chapitre 1 - Les armes de l'influence",
+    "envoye": false
+  },
+  {
+    "id": "e3f4g5h6-i7j8-6k9l-0m1n-o2p3q4r5s6t7",
+    "titre": "Heuristique cher = qualite",
+    "definition": "Les gens utilisent le prix comme indicateur automatique de la qualite. Cette regle empirique fonctionne souvent mais peut conduire a des erreurs de jugement quand elle est exploitee intentionnellement.",
+    "exemple": "Des bijoux de turquoise se sont mieux vendus apres que leur prix a ete accidentellement double, les clients associant prix eleve et qualite superieure.",
+    "categorie": "principe",
+    "tags": [
+      "prix",
+      "qualite",
+      "heuristique",
+      "perception"
+    ],
+    "source_chapitre": "Chapitre 1 - Les armes de l'influence",
+    "envoye": false
+  },
+  {
+    "id": "f4g5h6i7-j8k9-7l0m-1n2o-p3q4r5s6t7u8",
+    "titre": "Principe de reciprocite",
+    "definition": "La regle fondamentale selon laquelle nous nous sentons obliges de rendre les faveurs, cadeaux et services recus. Cette obligation sociale est profondement ancree dans toutes les cultures humaines et constitue un puissant levier d'influence.",
+    "exemple": "La Croix-Rouge ethiopienne a envoye des fonds au Mexique apres un tremblement de terre, 50 ans apres que le Mexique les avait aides lors de l'invasion italienne.",
+    "categorie": "principe",
+    "tags": [
+      "reciprocite",
+      "obligation",
+      "dette-sociale",
+      "echange"
+    ],
+    "source_chapitre": "Chapitre 2 - La reciprocite",
+    "envoye": false
+  },
+  {
+    "id": "g5h6i7j8-k9l0-8m1n-2o3p-q4r5s6t7u8v9",
+    "titre": "Technique du don prealable",
+    "definition": "Strategie consistant a offrir quelque chose (cadeau, service, echantillon) avant de formuler une demande. Le destinataire se sent alors redevable et est plus enclin a accepter la requete suivante, meme s'il n'apprecie pas le donneur.",
+    "exemple": "Les Hare Krishna offraient des fleurs aux passants dans les aeroports avant de leur demander des dons, neutralisant ainsi l'antipathie envers la secte.",
+    "categorie": "methode",
+    "tags": [
+      "don",
+      "cadeau",
+      "obligation",
+      "technique-vente"
+    ],
+    "source_chapitre": "Chapitre 2 - La reciprocite",
+    "envoye": false
+  },
+  {
+    "id": "h6i7j8k9-l0m1-9n2o-3p4q-r5s6t7u8v9w0",
+    "titre": "Concession reciproque",
+    "definition": "Technique ou l'on commence par une demande importante (rejetee) puis on fait une concession vers une demande plus modeste. L'interlocuteur se sent oblige de faire une concession en retour en acceptant la seconde demande.",
+    "exemple": "Demander d'abord de parrainer un enfant pendant 5 ans, puis en cas de refus, demander simplement d'acheter des billets de tombola.",
+    "categorie": "methode",
+    "tags": [
+      "concession",
+      "negociation",
+      "porte-au-nez",
+      "requete"
+    ],
+    "source_chapitre": "Chapitre 2 - La reciprocite",
+    "envoye": false
+  },
+  {
+    "id": "i7j8k9l0-m1n2-0o3p-4q5r-s6t7u8v9w0x1",
+    "titre": "Principe d'engagement et coherence",
+    "definition": "Une fois que nous avons pris une position ou fait un choix, nous subissons des pressions interieures et exterieures pour agir de maniere coherente avec cet engagement initial. Ce besoin de coherence peut nous pousser a des comportements contraires a nos interets.",
+    "exemple": "Les parieurs sont plus confiants dans leurs chances de gagner juste apres avoir place leur pari qu'avant, bien que rien n'ait objectivement change.",
+    "categorie": "principe",
+    "tags": [
+      "engagement",
+      "coherence",
+      "decision",
+      "auto-persuasion"
+    ],
+    "source_chapitre": "Chapitre 3 - Engagement et coherence",
+    "envoye": false
+  },
+  {
+    "id": "j8k9l0m1-n2o3-1p4q-5r6s-t7u8v9w0x1y2",
+    "titre": "Technique du pied-dans-la-porte",
+    "definition": "Methode consistant a obtenir d'abord un petit engagement initial, qui conditionne ensuite l'individu a accepter des demandes plus importantes pour rester coherent avec son premier choix.",
+    "exemple": "Demander de signer une petition pour l'environnement, puis quelques semaines plus tard, demander de planter un grand panneau publicitaire dans le jardin.",
+    "categorie": "methode",
+    "tags": [
+      "engagement",
+      "escalade",
+      "petit-pas",
+      "manipulation"
+    ],
+    "source_chapitre": "Chapitre 3 - Engagement et coherence",
+    "envoye": false
+  },
+  {
+    "id": "k9l0m1n2-o3p4-2q5r-6s7t-u8v9w0x1y2z3",
+    "titre": "Engagement public",
+    "definition": "Un engagement pris publiquement est beaucoup plus contraignant qu'un engagement prive. Les gens modifient leur image de soi pour correspondre a leurs declarations publiques et resistent davantage aux tentatives de changement.",
+    "exemple": "Les prisonniers de guerre americains en Coree qui avaient ecrit des declarations pro-communistes ont fini par y adherer pour rester coherents avec leurs ecrits.",
+    "categorie": "principe",
+    "tags": [
+      "engagement-public",
+      "image-de-soi",
+      "declaration",
+      "resistance"
+    ],
+    "source_chapitre": "Chapitre 3 - Engagement et coherence",
+    "envoye": false
+  },
+  {
+    "id": "l0m1n2o3-p4q5-3r6s-7t8u-v9w0x1y2z3a4",
+    "titre": "Effort et valorisation",
+    "definition": "Plus nous investissons d'effort pour obtenir quelque chose, plus nous le valorisons. Les epreuves difficiles d'initiation renforcent l'attachement au groupe et la loyaute des membres.",
+    "exemple": "Les fraternites universitaires avec des rites d'initiation severes ont des membres plus loyaux et engages que celles avec des initiations douces.",
+    "categorie": "principe",
+    "tags": [
+      "effort",
+      "valorisation",
+      "initiation",
+      "engagement"
+    ],
+    "source_chapitre": "Chapitre 3 - Engagement et coherence",
+    "envoye": false
+  },
+  {
+    "id": "m1n2o3p4-q5r6-4s7t-8u9v-w0x1y2z3a4b5",
+    "titre": "Technique du low-ball",
+    "definition": "Technique ou l'on obtient d'abord un engagement sur une offre attrayante, puis on modifie les conditions de l'offre (ajout de frais, retrait d'avantages). L'engagement initial pousse la personne a maintenir sa decision malgre les changements defavorables.",
+    "exemple": "Un vendeur de voitures propose un excellent prix, obtient l'accord du client, puis 'decouvre' des erreurs de calcul qui augmentent le prix final.",
+    "categorie": "methode",
+    "tags": [
+      "low-ball",
+      "engagement",
+      "amorce",
+      "vente"
+    ],
+    "source_chapitre": "Chapitre 3 - Engagement et coherence",
+    "envoye": false
+  },
+  {
+    "id": "n2o3p4q5-r6s7-5t8u-9v0w-x1y2z3a4b5c6",
+    "titre": "Principe de preuve sociale",
+    "definition": "Nous determinons ce qui est correct en observant ce que les autres pensent etre correct. Ce comportement est particulierement prononce en situation d'incertitude ou quand les autres nous ressemblent.",
+    "exemple": "Les rires pre-enregistres dans les emissions comiques augmentent les reactions de gaite du public, meme si la qualite humoristique est mediocre.",
+    "categorie": "principe",
+    "tags": [
+      "preuve-sociale",
+      "conformite",
+      "imitation",
+      "influence-sociale"
+    ],
+    "source_chapitre": "Chapitre 4 - La preuve sociale",
+    "envoye": false
+  },
+  {
+    "id": "o3p4q5r6-s7t8-6u9v-0w1x-y2z3a4b5c6d7",
+    "titre": "Similitude et influence",
+    "definition": "Nous sommes plus influences par les actions de personnes qui nous ressemblent. La preuve sociale est d'autant plus puissante qu'elle provient d'individus similaires a nous.",
+    "exemple": "Les enfants phobiques des chiens guerissent mieux en voyant d'autres enfants de leur age jouer avec des chiens qu'en voyant des adultes le faire.",
+    "categorie": "principe",
+    "tags": [
+      "similitude",
+      "identification",
+      "modele",
+      "influence"
+    ],
+    "source_chapitre": "Chapitre 4 - La preuve sociale",
+    "envoye": false
+  },
+  {
+    "id": "p4q5r6s7-t8u9-7v0w-1x2y-z3a4b5c6d7e8",
+    "titre": "Ignorance pluraliste",
+    "definition": "Phenomene ou chaque individu dans un groupe attend de voir comment les autres reagissent, ce qui peut conduire a l'inaction collective face a une situation d'urgence. Chacun interprete l'inaction des autres comme un signe que la situation n'est pas grave.",
+    "exemple": "Le meurtre de Kitty Genovese devant 38 temoins qui n'ont pas reagi, chacun pensant que l'absence de reaction des autres indiquait une situation normale.",
+    "categorie": "principe",
+    "tags": [
+      "ignorance-pluraliste",
+      "inaction",
+      "groupe",
+      "urgence"
+    ],
+    "source_chapitre": "Chapitre 4 - La preuve sociale",
+    "envoye": false
+  },
+  {
+    "id": "q5r6s7t8-u9v0-8w1x-2y3z-a4b5c6d7e8f9",
+    "titre": "Effet Werther",
+    "definition": "Phenomene de contagion sociale ou la publicite donnee aux suicides provoque une augmentation des suicides dans la population, les individus vulnerables imitant le comportement mediatise.",
+    "exemple": "Apres chaque publication en premiere page d'un suicide, le taux de suicides augmente significativement dans les jours et semaines suivantes.",
+    "categorie": "principe",
+    "tags": [
+      "contagion-sociale",
+      "imitation",
+      "suicide",
+      "media"
+    ],
+    "source_chapitre": "Chapitre 4 - La preuve sociale",
+    "envoye": false
+  },
+  {
+    "id": "r6s7t8u9-v0w1-9x2y-3z4a-b5c6d7e8f9g0",
+    "titre": "Principe de sympathie",
+    "definition": "Nous sommes plus enclins a acceder aux demandes de personnes que nous connaissons et que nous apprecions. La sympathie peut etre generee par l'apparence physique, la similarite, les compliments, le contact et la cooperation.",
+    "exemple": "Les reunions Tupperware exploitent l'amitie entre l'hotesse et ses invitees pour vendre des produits, car on refuse difficilement une amie.",
+    "categorie": "principe",
+    "tags": [
+      "sympathie",
+      "appreciation",
+      "relation",
+      "confiance"
+    ],
+    "source_chapitre": "Chapitre 5 - La sympathie",
+    "envoye": false
+  },
+  {
+    "id": "s7t8u9v0-w1x2-0y3z-4a5b-c6d7e8f9g0h1",
+    "titre": "Effet de halo",
+    "definition": "Biais cognitif ou une caracteristique positive (comme la beaute physique) influence positivement notre jugement sur d'autres caracteristiques non liees (intelligence, honnetete, competence).",
+    "exemple": "Les candidats politiques physiquement seduisants recoivent 2,5 fois plus de votes, meme si les electeurs nient que l'apparence influence leur choix.",
+    "categorie": "principe",
+    "tags": [
+      "effet-halo",
+      "beaute",
+      "biais-cognitif",
+      "jugement"
+    ],
+    "source_chapitre": "Chapitre 5 - La sympathie",
+    "envoye": false
+  },
+  {
+    "id": "t8u9v0w1-x2y3-1z4a-5b6c-d7e8f9g0h1i2",
+    "titre": "Similarite et attraction",
+    "definition": "Nous aimons les personnes qui nous ressemblent, que ce soit en termes d'opinions, de traits de personnalite, de style vestimentaire ou d'origines. Les vendeurs exploitent cette tendance en imitant leurs clients.",
+    "exemple": "Les vendeurs de voitures adaptent leur style, interets et origines pour correspondre a ceux du client et creer un lien de sympathie.",
+    "categorie": "principe",
+    "tags": [
+      "similarite",
+      "attraction",
+      "miroir",
+      "rapport"
+    ],
+    "source_chapitre": "Chapitre 5 - La sympathie",
+    "envoye": false
+  },
+  {
+    "id": "u9v0w1x2-y3z4-2a5b-6c7d-e8f9g0h1i2j3",
+    "titre": "Compliments et appreciation",
+    "definition": "Les compliments, meme lorsqu'ils sont percus comme interesses ou exageres, generent de la sympathie envers celui qui les fait et augmentent sa capacite d'influence.",
+    "exemple": "Joe Girard, meilleur vendeur de voitures au monde, envoyait 13000 cartes par mois a ses clients avec simplement 'Je vous apprecie'.",
+    "categorie": "methode",
+    "tags": [
+      "compliment",
+      "flatterie",
+      "appreciation",
+      "influence"
+    ],
+    "source_chapitre": "Chapitre 5 - La sympathie",
+    "envoye": false
+  },
+  {
+    "id": "v0w1x2y3-z4a5-3b6c-7d8e-f9g0h1i2j3k4",
+    "titre": "Association positive",
+    "definition": "Nous transferons nos sentiments positifs ou negatifs associes a quelque chose vers les personnes ou produits qui y sont lies, meme si cette association est arbitraire.",
+    "exemple": "Les meterologues recoivent des menaces quand ils annoncent du mauvais temps, etant inconsciemment associes aux nouvelles desagreables.",
+    "categorie": "principe",
+    "tags": [
+      "association",
+      "conditionnement",
+      "transfert",
+      "image"
+    ],
+    "source_chapitre": "Chapitre 5 - La sympathie",
+    "envoye": false
+  },
+  {
+    "id": "w1x2y3z4-a5b6-4c7d-8e9f-g0h1i2j3k4l5",
+    "titre": "Principe d'autorite",
+    "definition": "Nous avons une tendance profonde a obeir aux figures d'autorite, meme lorsque leurs ordres vont a l'encontre de notre morale ou de nos interets. Cette soumission peut etre declenchee par de simples symboles d'autorite.",
+    "exemple": "Dans l'experience de Milgram, 65% des sujets ont administre des decharges electriques potentiellement mortelles sur ordre d'un chercheur en blouse blanche.",
+    "categorie": "principe",
+    "tags": [
+      "autorite",
+      "obeissance",
+      "soumission",
+      "hierarchie"
+    ],
+    "source_chapitre": "Chapitre 6 - L'autorite",
+    "envoye": true
+  },
+  {
+    "id": "x2y3z4a5-b6c7-5d8e-9f0g-h1i2j3k4l5m6",
+    "titre": "Symboles d'autorite",
+    "definition": "Les titres, vetements et accessoires servent de declencheurs automatiques de deference, meme en l'absence de competence reelle. Ces symboles peuvent etre facilement falsifies pour exploiter notre reflexe d'obeissance.",
+    "exemple": "Un homme en costume trois-pieces obtient 3,5 fois plus de pietons pour traverser au feu rouge qu'un homme habille normalement.",
+    "categorie": "outil",
+    "tags": [
+      "symboles",
+      "uniforme",
+      "titre",
+      "apparence"
+    ],
+    "source_chapitre": "Chapitre 6 - L'autorite",
+    "envoye": false
+  },
+  {
+    "id": "y3z4a5b6-c7d8-6e9f-0g1h-i2j3k4l5m6n7",
+    "titre": "Expertise percue",
+    "definition": "Nous accordons une credibilite disproportionnee aux experts ou a ceux qui semblent l'etre. Cette confiance peut etre exploitee par des acteurs jouant des roles d'experts dans les publicites.",
+    "exemple": "Les publicites utilisant des acteurs en blouse blanche de medecin sont efficaces meme quand le public sait qu'il s'agit d'acteurs.",
+    "categorie": "principe",
+    "tags": [
+      "expertise",
+      "credibilite",
+      "confiance",
+      "autorite"
+    ],
+    "source_chapitre": "Chapitre 6 - L'autorite",
+    "envoye": false
+  },
+  {
+    "id": "z4a5b6c7-d8e9-7f0g-1h2i-j3k4l5m6n7o8",
+    "titre": "Tactique de la vulnerabilite admise",
+    "definition": "Admettre une faiblesse mineure au debut etablit la credibilite et rend les affirmations positives suivantes plus convaincantes. Cette technique cree une perception d'honnetete.",
+    "exemple": "Un serveur qui deconseille un plat cher gagne la confiance du client et peut ensuite recommander des vins couteux avec plus de succes.",
+    "categorie": "methode",
+    "tags": [
+      "credibilite",
+      "honnetete",
+      "confiance",
+      "persuasion"
+    ],
+    "source_chapitre": "Chapitre 6 - L'autorite",
+    "envoye": false
+  },
+  {
+    "id": "a5b6c7d8-e9f0-8g1h-2i3j-k4l5m6n7o8p9",
+    "titre": "Principe de rarete",
+    "definition": "Les opportunites nous paraissent plus desirables lorsqu'elles sont rares ou limitees dans le temps. La peur de perdre quelque chose est plus motivante que la perspective de gagner quelque chose d'equivalent.",
+    "exemple": "Un temple mormon normalement interdit aux non-membres devient soudain tres attractif pendant les quelques jours ou il est exceptionnellement accessible.",
+    "categorie": "principe",
+    "tags": [
+      "rarete",
+      "exclusivite",
+      "urgence",
+      "perte"
+    ],
+    "source_chapitre": "Chapitre 7 - La rarete",
+    "envoye": false
+  },
+  {
+    "id": "b6c7d8e9-f0g1-9h2i-3j4k-l5m6n7o8p9q0",
+    "titre": "Technique de la quantite limitee",
+    "definition": "Informer le client que le stock d'un produit est limite ou qu'il s'agit des derniers exemplaires augmente sa valeur percue et accelere la decision d'achat.",
+    "exemple": "'Il ne reste que deux terrains dans le lotissement' ou 'C'est la derniere decapotable avec ce moteur dans l'etat'.",
+    "categorie": "methode",
+    "tags": [
+      "rarete",
+      "stock-limite",
+      "urgence",
+      "vente"
+    ],
+    "source_chapitre": "Chapitre 7 - La rarete",
+    "envoye": false
+  },
+  {
+    "id": "c7d8e9f0-g1h2-0i3j-4k5l-m6n7o8p9q0r1",
+    "titre": "Technique du delai limite",
+    "definition": "Imposer des limites temporelles strictes a la disponibilite d'une offre pour pousser a une decision immediate, avant que le client n'ait le temps de reflechir.",
+    "exemple": "'Cette offre n'est valable qu'aujourd'hui' ou 'Si vous quittez le magasin, le prix ne sera plus le meme'.",
+    "categorie": "methode",
+    "tags": [
+      "urgence",
+      "deadline",
+      "pression",
+      "decision"
+    ],
+    "source_chapitre": "Chapitre 7 - La rarete",
+    "envoye": false
+  },
+  {
+    "id": "d8e9f0g1-h2i3-1j4k-5l6m-n7o8p9q0r1s2",
+    "titre": "Reactance psychologique",
+    "definition": "Quand notre liberte de choix est menacee ou eliminee, nous desirons davantage ce qui nous est refuse. Cette reaction se manifeste notamment chez les adolescents et face a la censure.",
+    "exemple": "L'effet Romeo et Juliette: l'opposition parentale renforce l'amour entre jeunes amants plutot que de l'affaiblir.",
+    "categorie": "principe",
+    "tags": [
+      "reactance",
+      "liberte",
+      "interdiction",
+      "desir"
+    ],
+    "source_chapitre": "Chapitre 7 - La rarete",
+    "envoye": false
+  },
+  {
+    "id": "e9f0g1h2-i3j4-2k5l-6m7n-o8p9q0r1s2t3",
+    "titre": "Information exclusive",
+    "definition": "Une information presentee comme confidentielle ou exclusive est percue comme plus credible et plus precieuse, et a plus d'impact sur les decisions.",
+    "exemple": "Des acheteurs de viande ont commande 6 fois plus quand on leur a dit que l'information sur la penurie etait confidentielle.",
+    "categorie": "principe",
+    "tags": [
+      "exclusivite",
+      "information",
+      "credibilite",
+      "confidentialite"
+    ],
+    "source_chapitre": "Chapitre 7 - La rarete",
+    "envoye": false
+  },
+  {
+    "id": "f0g1h2i3-j4k5-3l6m-7n8o-p9q0r1s2t3u4",
+    "titre": "Rarete nouvellement acquise",
+    "definition": "Une ressource devenue recemment rare est plus desirable qu'une ressource qui a toujours ete rare. La perte d'une liberte precedemment acquise provoque une reaction plus forte.",
+    "exemple": "Les emeutes raciales aux Etats-Unis ont ete plus violentes dans les villes ou les progres des droits civiques avaient ete suivis de revers.",
+    "categorie": "principe",
+    "tags": [
+      "rarete",
+      "perte",
+      "reaction",
+      "privation"
+    ],
+    "source_chapitre": "Chapitre 7 - La rarete",
+    "envoye": false
+  },
+  {
+    "id": "g1h2i3j4-k5l6-4m7n-8o9p-q0r1s2t3u4v5",
+    "titre": "Competition pour ressources rares",
+    "definition": "La presence de concurrents pour une ressource rare intensifie notre desir de l'obtenir. Cette competition peut provoquer des comportements irrationnels et des encheres excessives.",
+    "exemple": "Les encheres immobilieres ou plusieurs acheteurs creent une frenesie qui pousse les prix bien au-dela de la valeur reelle.",
+    "categorie": "principe",
+    "tags": [
+      "competition",
+      "rarete",
+      "encheres",
+      "frenesie"
+    ],
+    "source_chapitre": "Chapitre 7 - La rarete",
+    "envoye": false
+  },
+  {
+    "id": "h2i3j4k5-l6m7-5n8o-9p0q-r1s2t3u4v5w6",
+    "titre": "Technique de la chaine d'amis",
+    "definition": "Utiliser le nom d'un ami commun pour etablir un lien de confiance avec un prospect. Le simple fait de mentionner une connaissance commune suffit a faciliter l'acceptation d'une demande.",
+    "exemple": "Les vendeurs Shaklee demandent les noms d'amis des clients satisfaits, puis utilisent ces references pour approcher de nouveaux prospects.",
+    "categorie": "methode",
+    "tags": [
+      "reference",
+      "reseau",
+      "confiance",
+      "vente"
+    ],
+    "source_chapitre": "Chapitre 5 - La sympathie",
+    "envoye": false
+  },
+  {
+    "id": "i3j4k5l6-m7n8-6o9p-0q1r-s2t3u4v5w6x7",
+    "titre": "Defense contre l'influence",
+    "definition": "La meilleure defense contre les techniques d'influence est de reconnaitre quand elles sont utilisees contre nous et de separer le manipulateur de ses outils de persuasion.",
+    "exemple": "Face a un vendeur trop sympathique, se demander 'Est-ce que j'apprecierais cette personne autant si je n'etais pas en train d'acheter?'",
+    "categorie": "outil",
+    "tags": [
+      "defense",
+      "conscience",
+      "protection",
+      "vigilance"
+    ],
+    "source_chapitre": "Conclusion",
+    "envoye": false
+  }
+]

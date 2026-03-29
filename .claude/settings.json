@@ -1,0 +1,12 @@
+{
+  "model": "claude-sonnet-4-6",
+  "autoUpdateChannel": "stable",
+  "allowedTools": ["Read", "Write", "Edit", "Bash"],
+  "permissions": {
+    "allow": [
+      "Bash(pip install *)",
+      "Bash(python scripts/*)",
+      "Bash(curl https://ntfy.sh/*)"
+    ]
+  }
+}
