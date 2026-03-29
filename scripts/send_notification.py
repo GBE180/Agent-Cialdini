@@ -1,102 +1,81 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-"""Script to send daily concept notifications via ntfy.sh"""
-
 import json
-import requests
-import sys
 import os
-from datetime import datetime
+import requests
+from datetime import date
+import anthropic
 
-# Force UTF-8 encoding
-if sys.stdout.encoding != 'utf-8':
-    sys.stdout.reconfigure(encoding='utf-8')
+# Chemins
+CONCEPTS_FILE = "data/concepts.json"
+NTFY_CHANNEL = "Cialdini-GBE180"  # personnalise ce nom
 
-def send_notification(concept, user_id="book-concepts-default"):
-    """Send a concept notification via ntfy.sh"""
+def load_concepts():
+    with open(CONCEPTS_FILE, "r", encoding="utf-8") as f:
+        return json.load(f)
 
-    # Format the message (max 200 words)
-    title = concept['titre']
-    definition = concept['definition']
-    exemple = concept['exemple']
-    categorie = concept['categorie']
+def save_concepts(concepts):
+    with open(CONCEPTS_FILE, "w", encoding="utf-8") as f:
+        json.dump(concepts, f, ensure_ascii=False, indent=2)
 
-    # Create the message
-    message = f"""
-{title}
+def pick_concept(concepts):
+    # Cherche les concepts non envoyés
+    non_envoyes = [c for c in concepts if not c.get("envoye", False)]
+    
+    # Si tous envoyés, on réinitialise
+    if not non_envoyes:
+        for c in concepts:
+            c["envoye"] = False
+        non_envoyes = concepts
+    
+    # Sélection basée sur la date (reproductible)
+    index = date.today().toordinal() % len(non_envoyes)
+    return non_envoyes[index]
 
-{definition}
+def format_message(concept):
+    client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+    
+    response = client.messages.create(
+        model="claude-haiku-4-5-20251001",
+        max_tokens=300,
+        messages=[{
+            "role": "user",
+            "content": f"""Transforme ce concept en une notification mobile 
+engageante et mémorable (max 150 mots, ton dynamique) :
 
-Exemple: {exemple}
+Titre: {concept['titre']}
+Définition: {concept['definition']}
+Exemple: {concept.get('exemple', '')}
 
-Catégorie: {categorie}
-Source: {concept['source_chapitre']}
-"""
+Commence directement par le contenu, sans intro."""
+        }]
+    )
+    return response.content[0].text
 
-    # ntfy.sh endpoint
-    ntfy_url = f"https://ntfy.sh/{user_id}"
+def send_notification(title, body):
+    requests.post(
+        f"https://ntfy.sh/{NTFY_CHANNEL}",
+        data=body.encode("utf-8"),
+        headers={
+            "Title": title,
+            "Priority": "default",
+            "Tags": "book,concept"
+        }
+    )
+    print(f"✅ Notification envoyée : {title}")
 
-    headers = {
-        "Title": title,
-        "Tags": "book,concept",
-        "Priority": "default"
-    }
-
-    try:
-        response = requests.post(ntfy_url, data=message, headers=headers)
-        response.raise_for_status()
-        print(f"[OK] Notification envoyée: {title}")
-        return True
-    except requests.exceptions.RequestException as e:
-        print(f"[ERREUR] Erreur lors de l'envoi: {e}")
-        return False
-
-def mark_as_sent(concept_id, concepts_file):
-    """Mark a concept as sent in the JSON file"""
-
-    with open(concepts_file, 'r', encoding='utf-8') as f:
-        concepts = json.load(f)
-
-    # Find and update the concept
-    for concept in concepts:
-        if concept['id'] == concept_id:
-            concept['envoye'] = True
+def main():
+    concepts = load_concepts()
+    concept = pick_concept(concepts)
+    
+    message = format_message(concept)
+    send_notification(concept["titre"], message)
+    
+    # Marquer comme envoyé
+    for c in concepts:
+        if c.get("titre") == concept["titre"]:
+            c["envoye"] = True
             break
-
-    # Write back to file
-    with open(concepts_file, 'w', encoding='utf-8') as f:
-        json.dump(concepts, f, indent=2, ensure_ascii=False)
-
-    return True
+    
+    save_concepts(concepts)
 
 if __name__ == "__main__":
-    if len(sys.argv) < 3:
-        print("Usage: send_notification.py <concepts_file> <concept_id> [user_id]")
-        sys.exit(1)
-
-    concepts_file = sys.argv[1]
-    concept_id = sys.argv[2]
-    user_id = sys.argv[3] if len(sys.argv) > 3 else "book-concepts-default"
-
-    # Load concept
-    with open(concepts_file, 'r', encoding='utf-8') as f:
-        concepts = json.load(f)
-
-    concept = None
-    for c in concepts:
-        if c['id'] == concept_id:
-            concept = c
-            break
-
-    if not concept:
-        print(f"Concept {concept_id} not found")
-        sys.exit(1)
-
-    # Send notification
-    if send_notification(concept, user_id):
-        # Mark as sent
-        mark_as_sent(concept_id, concepts_file)
-        print(f"[OK] Concept marqué comme envoyé")
-        sys.exit(0)
-    else:
-        sys.exit(1)
+    main()
