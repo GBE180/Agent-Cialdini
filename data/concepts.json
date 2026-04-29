@@ -12,7 +12,7 @@
       "stimulus"
     ],
     "source_chapitre": "Chapitre 1 - Les armes de l'influence",
-    "envoye": true
+    "envoye": false
   },
   {
     "id": "d2e3f4g5-h6i7-5j8k-9l0m-n1o2p3q4r5s6",
@@ -26,7 +26,7 @@
       "reaction-automatique"
     ],
     "source_chapitre": "Chapitre 1 - Les armes de l'influence",
-    "envoye": true
+    "envoye": false
   },
   {
     "id": "e3f4g5h6-i7j8-6k9l-0m1n-o2p3q4r5s6t7",
@@ -41,7 +41,7 @@
       "perception"
     ],
     "source_chapitre": "Chapitre 1 - Les armes de l'influence",
-    "envoye": true
+    "envoye": false
   },
   {
     "id": "f4g5h6i7-j8k9-7l0m-1n2o-p3q4r5s6t7u8",
@@ -56,7 +56,7 @@
       "echange"
     ],
     "source_chapitre": "Chapitre 2 - La reciprocite",
-    "envoye": true
+    "envoye": false
   },
   {
     "id": "g5h6i7j8-k9l0-8m1n-2o3p-q4r5s6t7u8v9",
@@ -71,7 +71,7 @@
       "technique-vente"
     ],
     "source_chapitre": "Chapitre 2 - La reciprocite",
-    "envoye": true
+    "envoye": false
   },
   {
     "id": "h6i7j8k9-l0m1-9n2o-3p4q-r5s6t7u8v9w0",
@@ -86,7 +86,7 @@
       "requete"
     ],
     "source_chapitre": "Chapitre 2 - La reciprocite",
-    "envoye": true
+    "envoye": false
   },
   {
     "id": "i7j8k9l0-m1n2-0o3p-4q5r-s6t7u8v9w0x1",
@@ -101,7 +101,7 @@
       "auto-persuasion"
     ],
     "source_chapitre": "Chapitre 3 - Engagement et coherence",
-    "envoye": true
+    "envoye": false
   },
   {
     "id": "j8k9l0m1-n2o3-1p4q-5r6s-t7u8v9w0x1y2",
@@ -131,7 +131,7 @@
       "resistance"
     ],
     "source_chapitre": "Chapitre 3 - Engagement et coherence",
-    "envoye": true
+    "envoye": false
   },
   {
     "id": "l0m1n2o3-p4q5-3r6s-7t8u-v9w0x1y2z3a4",
@@ -146,7 +146,7 @@
       "engagement"
     ],
     "source_chapitre": "Chapitre 3 - Engagement et coherence",
-    "envoye": true
+    "envoye": false
   },
   {
     "id": "m1n2o3p4-q5r6-4s7t-8u9v-w0x1y2z3a4b5",
@@ -161,7 +161,7 @@
       "vente"
     ],
     "source_chapitre": "Chapitre 3 - Engagement et coherence",
-    "envoye": true
+    "envoye": false
   },
   {
     "id": "n2o3p4q5-r6s7-5t8u-9v0w-x1y2z3a4b5c6",
@@ -176,7 +176,7 @@
       "influence-sociale"
     ],
     "source_chapitre": "Chapitre 4 - La preuve sociale",
-    "envoye": true
+    "envoye": false
   },
   {
     "id": "o3p4q5r6-s7t8-6u9v-0w1x-y2z3a4b5c6d7",
@@ -191,7 +191,7 @@
       "influence"
     ],
     "source_chapitre": "Chapitre 4 - La preuve sociale",
-    "envoye": true
+    "envoye": false
   },
   {
     "id": "p4q5r6s7-t8u9-7v0w-1x2y-z3a4b5c6d7e8",
@@ -206,7 +206,7 @@
       "urgence"
     ],
     "source_chapitre": "Chapitre 4 - La preuve sociale",
-    "envoye": true
+    "envoye": false
   },
   {
     "id": "q5r6s7t8-u9v0-8w1x-2y3z-a4b5c6d7e8f9",
@@ -221,7 +221,7 @@
       "media"
     ],
     "source_chapitre": "Chapitre 4 - La preuve sociale",
-    "envoye": true
+    "envoye": false
   },
   {
     "id": "r6s7t8u9-v0w1-9x2y-3z4a-b5c6d7e8f9g0",
@@ -236,7 +236,7 @@
       "confiance"
     ],
     "source_chapitre": "Chapitre 5 - La sympathie",
-    "envoye": true
+    "envoye": false
   },
   {
     "id": "s7t8u9v0-w1x2-0y3z-4a5b-c6d7e8f9g0h1",
@@ -251,7 +251,7 @@
       "jugement"
     ],
     "source_chapitre": "Chapitre 5 - La sympathie",
-    "envoye": true
+    "envoye": false
   },
   {
     "id": "t8u9v0w1-x2y3-1z4a-5b6c-d7e8f9g0h1i2",
@@ -266,7 +266,7 @@
       "rapport"
     ],
     "source_chapitre": "Chapitre 5 - La sympathie",
-    "envoye": true
+    "envoye": false
   },
   {
     "id": "u9v0w1x2-y3z4-2a5b-6c7d-e8f9g0h1i2j3",
@@ -281,7 +281,7 @@
       "influence"
     ],
     "source_chapitre": "Chapitre 5 - La sympathie",
-    "envoye": true
+    "envoye": false
   },
   {
     "id": "v0w1x2y3-z4a5-3b6c-7d8e-f9g0h1i2j3k4",
@@ -296,7 +296,7 @@
       "image"
     ],
     "source_chapitre": "Chapitre 5 - La sympathie",
-    "envoye": true
+    "envoye": false
   },
   {
     "id": "w1x2y3z4-a5b6-4c7d-8e9f-g0h1i2j3k4l5",
@@ -311,7 +311,7 @@
       "hierarchie"
     ],
     "source_chapitre": "Chapitre 6 - L'autorite",
-    "envoye": true
+    "envoye": false
   },
   {
     "id": "x2y3z4a5-b6c7-5d8e-9f0g-h1i2j3k4l5m6",
@@ -326,7 +326,7 @@
       "apparence"
     ],
     "source_chapitre": "Chapitre 6 - L'autorite",
-    "envoye": true
+    "envoye": false
   },
   {
     "id": "y3z4a5b6-c7d8-6e9f-0g1h-i2j3k4l5m6n7",
@@ -341,7 +341,7 @@
       "autorite"
     ],
     "source_chapitre": "Chapitre 6 - L'autorite",
-    "envoye": true
+    "envoye": false
   },
   {
     "id": "z4a5b6c7-d8e9-7f0g-1h2i-j3k4l5m6n7o8",
@@ -356,7 +356,7 @@
       "persuasion"
     ],
     "source_chapitre": "Chapitre 6 - L'autorite",
-    "envoye": true
+    "envoye": false
   },
   {
     "id": "a5b6c7d8-e9f0-8g1h-2i3j-k4l5m6n7o8p9",
@@ -371,7 +371,7 @@
       "perte"
     ],
     "source_chapitre": "Chapitre 7 - La rarete",
-    "envoye": true
+    "envoye": false
   },
   {
     "id": "b6c7d8e9-f0g1-9h2i-3j4k-l5m6n7o8p9q0",
@@ -386,7 +386,7 @@
       "vente"
     ],
     "source_chapitre": "Chapitre 7 - La rarete",
-    "envoye": true
+    "envoye": false
   },
   {
     "id": "c7d8e9f0-g1h2-0i3j-4k5l-m6n7o8p9q0r1",
@@ -401,7 +401,7 @@
       "decision"
     ],
     "source_chapitre": "Chapitre 7 - La rarete",
-    "envoye": true
+    "envoye": false
   },
   {
     "id": "d8e9f0g1-h2i3-1j4k-5l6m-n7o8p9q0r1s2",
@@ -416,7 +416,7 @@
       "desir"
     ],
     "source_chapitre": "Chapitre 7 - La rarete",
-    "envoye": true
+    "envoye": false
   },
   {
     "id": "e9f0g1h2-i3j4-2k5l-6m7n-o8p9q0r1s2t3",
@@ -431,7 +431,7 @@
       "confidentialite"
     ],
     "source_chapitre": "Chapitre 7 - La rarete",
-    "envoye": true
+    "envoye": false
   },
   {
     "id": "f0g1h2i3-j4k5-3l6m-7n8o-p9q0r1s2t3u4",
@@ -446,7 +446,7 @@
       "privation"
     ],
     "source_chapitre": "Chapitre 7 - La rarete",
-    "envoye": true
+    "envoye": false
   },
   {
     "id": "g1h2i3j4-k5l6-4m7n-8o9p-q0r1s2t3u4v5",
@@ -461,7 +461,7 @@
       "frenesie"
     ],
     "source_chapitre": "Chapitre 7 - La rarete",
-    "envoye": true
+    "envoye": false
   },
   {
     "id": "h2i3j4k5-l6m7-5n8o-9p0q-r1s2t3u4v5w6",
@@ -476,7 +476,7 @@
       "vente"
     ],
     "source_chapitre": "Chapitre 5 - La sympathie",
-    "envoye": true
+    "envoye": false
   },
   {
     "id": "i3j4k5l6-m7n8-6o9p-0q1r-s2t3u4v5w6x7",
@@ -491,6 +491,6 @@
       "vigilance"
     ],
     "source_chapitre": "Conclusion",
-    "envoye": true
+    "envoye": false
   }
 ]
